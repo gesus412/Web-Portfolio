@@ -62,6 +62,18 @@
 		letter-spacing: 5px;
  }
  
+ 	nav ul li a:hover, a:focus {
+		color: rgb(102,51,102);
+ }
+ 
+	.select {
+		color: rgb(0,204,51);
+ }
+ 
+ 	.left {
+		clear: both;
+ }
+ 
  	.greybox {
 		background: rgb(204,204,204);
 		color: rgb(102,51,102);
@@ -109,7 +121,7 @@
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
-	hr { border: solid rgb(102,51,102); border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { border: solid rgb(102,51,102); border-width: 1px 0 0; clear: both; margin: 10px 0 15px; height: 0; }
 
 
 /* #Links
