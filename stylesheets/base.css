@@ -57,13 +57,20 @@
 		-webkit-text-size-adjust: 100%;
  }
 
+	footer {
+		background: rgb(102,51,102);
+		clear: both;
+		width: 1024px;
+ }
 
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #181818;
-		font-family: "Georgia", "Times New Roman", serif;
-		font-weight: normal; }
+		color: rgb(204,204,204);
+		font-family: "Futura", "Roboto Light", Helvetica, Arial, sans-serif;
+		font-weight: normal; 
+		letter-spacing: 5px;
+		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
@@ -111,7 +118,12 @@
 	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
+	
+	li {
+	line-height: 18px;
+	margin-bottom: 12px;
+	display: inline-block;
+}
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
@@ -121,7 +133,6 @@
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
-/* TEST EDIT */
 
 /* #Buttons
 ================================================== */
@@ -264,5 +275,3 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
