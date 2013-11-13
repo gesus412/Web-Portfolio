@@ -52,7 +52,7 @@
 	body {
 		background: url(../images/dark_exa.png);
 		font: 14px/21px "Futura" , "Roboto Light", Helvetica, Arial, sans-serif;
-		color: #444;
+		color: rgb(204,204,204);
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
