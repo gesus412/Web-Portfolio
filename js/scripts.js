@@ -6,4 +6,6 @@ $(document).ready(function() {
 	$("#gallery4 a").lightBox();
 	$("#gallery5 a").lightBox();
 	$("#gallery6 a").lightBox();
+	$("#gallery7 a").lightBox();
+	$("#gallery8 a").lightBox();
 });

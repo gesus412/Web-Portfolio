@@ -89,8 +89,8 @@
 		color: rgb(102,51,102);
  }
  
- 	.portfoliocontainers {
-		width: 470px;
+ 	.one-fourth column {
+		margin-left: 0;
  }
  
 	footer {
