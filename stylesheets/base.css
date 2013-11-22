@@ -89,6 +89,10 @@
 		color: rgb(102,51,102);
  }
  
+ 	.portfoliocontainers {
+		width: 470px;
+ }
+ 
 	footer {
 		background: rgb(102,51,102);
 		clear: both;
