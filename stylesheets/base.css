@@ -85,6 +85,10 @@
 		margin-left: 0;
  }
  
+ 	.purpletext {
+		color: rgb(102,51,102);
+ }
+ 
 	footer {
 		background: rgb(102,51,102);
 		clear: both;
