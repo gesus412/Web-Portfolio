@@ -35,13 +35,16 @@
     
     	<!-- Scirpts
 	================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
 	<link href="js/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
-
 </head>
+
+
 <body>
 
 
@@ -52,7 +55,7 @@
 	<div class="container">
 		<div class="sixteen columns">
         	<div>
-				<a href="index.html"><img src="images/Logo.png" alt="Logo for Giovanni Leone" height="216" width="288" /></a>
+				<a href="index.html"><img src="images/Logo.png" alt="Logo for Giovanni Leone" height="150" width="480" /></a>
             </div>
 			<div>
             	<nav>
@@ -67,171 +70,256 @@
         
         <div class="filter">
         	<ul>
-            	<li>All</li>
-            	<li>Work</li>
-                <li>School</li>
-                <li>Personal</li>
+            	<li class="filter" data-filter="All">All</li>
+            	<li class="filter" data-filter="Work">Work</li>
+                <li class="filter" data-filter="School">School</li>
+                <li class="filter" data-filter="Personal">Personal</li>
             </ul>
         </div>
         <!-- filtering nav -->
+        
         	
-        <div>
-		<div class="one-fourth column">
+        <div id="Grid">
         
-			<div id="gallery1">
-            	<a href="images/compost.png" title="Compost"><img src="images/compost.png" alt="Compost Label" width="100%" height="100%" /></a>
-                <a href="images/landfill.png" title="Landfill"></a>
-                <a href="images/recycle.png" title="Recycle"></a>
-            </div>
+        	<div class="mix Work">
+				
+                <div class="one-fourth column">
+        
+					<div id="gallery1">
+            			<a href="images/compost.png" title="Compost"><img src="images/compost.png" alt="Compost Label" width="100%" height="100%" /></a>
+                		<a href="images/landfill.png" title="Landfill"></a>
+                		<a href="images/recycle.png" title="Recycle"></a>
+            		</div>
              
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>ZERO WASTE LABELS</h4>
-			<h5>WORK</h5>
-            <h6>RIT Sustainability Department</h6>
-            <p class="purpletext">Designed a complete set of labels for Rocehster Institute of Technology's Zero Waste Events. These labels are posted on every landfill, recycling, and composting receptical. These labels feature original illustrative icons.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
+				</div>
+            
+				
+                <div class="one-fourth column">
+        		
+                	<div>
+						<h4>ZERO WASTE LABELS</h4>
+						<h5>WORK</h5>
+            			<h6>RIT Sustainability Department</h6>
+            			<p class="purpletext">Designed a complete set of labels for Rocehster Institute of Technology's Zero Waste Events. These labels are posted on every landfill, recycling, and composting receptical. These labels feature original illustrative icons.</p>
+        			</div>
+		
+        		</div>
+       
+       	    </div>
+        	<!--Image Section End-->
+            
+           
         
-        <div>
-		<div class="one-fourth column">
+        	<div class="mix School">
+            
+				<div class="one-fourth column">
 			
-            <div id="gallery2">
-            	<a href="images/irishfest.png" title="Irish Festival Poster"><img src="images/irishfest.png" alt="Irish Festival Poster" width="100%" height="100%" /></a>
-            </div>
+            		<div id="gallery2">
+            			<a href="images/irishfest.png" title="Irish Festival Poster"><img src="images/irishfest.png" alt="Irish Festival Poster" width="100%" height="100%" /></a>
+            		</div>
             
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>IRISH FESTIVAL POSTER</h4>
-			<h5>SCHOOL</h5>
-            <h6>Imagery in Design</h6>
-            <p class="purpletext">Designed a poster with the subject matter of the Rochester Irish Festival. The poster features original illustrations and a found background texture.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
-        
-        <div>
-        <div class="portfoliocontainers">
-        <div class="one-fourth column">
-        
-			<div id="gallery3">
-            	<a href="images/bookspines.png" title="Book Spines"><img src="images/bookspines.png" alt="Book Cover Design" width="100%" height="100%" /></a>
-                <a href="images/bookcovers.png" title="Book Covers"></a>
-            </div>
+				</div>
+                
+                
+				<div class="one-fourth column">
+       		
+            		<div>
+						<h4>IRISH FESTIVAL POSTER</h4>
+						<h5>SCHOOL</h5>
+            			<h6>Imagery in Design</h6>
+            			<p class="purpletext">Designed a poster with the subject matter of the Rochester Irish Festival. The poster features original illustrations and a found background texture.</p>
+        			</div>
+                    
+				</div>
+                
+        	</div>
+        	<!--Image Section End-->
             
-		</div>
-        </div>
-		<div class="one-fourth column">
-        <div>
-			<h4>BOOK COVER DESIGN</h4>
-			<h5>SCHOOL</h5>
-            <h6>Imagery in Design</h6>
-            <p class="purpletext">Designed a portion of the book covers for the series, Demonata. These book covers feature original illustrations and a found background texture.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
         
-        <div class="portfoliocontainers">
-		<div class="one-fourth column">
+        	<div class="mix School">
+            
+        		<div class="portfoliocontainers">
+        
+        			<div class="one-fourth column">
+        
+						<div id="gallery3">
+            				<a href="images/bookspines.png" title="Book Spines"><img src="images/bookspines.png" alt="Book Cover Design" width="100%" height="100%" /></a>
+                			<a href="images/bookcovers.png" title="Book Covers"></a>
+            			</div>
+            
+					</div>
+                    
+        		</div>
+                
+                
+				<div class="one-fourth column">
+        			
+                    <div>		
+            			<h4>BOOK COVER DESIGN</h4>
+						<h5>SCHOOL</h5>
+            			<h6>Imagery in Design</h6>
+            			<p class="purpletext">Designed a portion of the book covers for the series, Demonata. These book covers feature original illustrations and a found background texture.</p>
+        			</div>
+                    
+				</div>
+        
+        	</div>
+        	<!--Image Section End-->
+            
+            
+            <div class="mix School">
+        
+        		<div class="portfoliocontainers">
 		
-            <div id="gallery4">
-            	<a href="images/bass.png" title="Object Translation"><img src="images/bass.png" alt="Speaker Translation" width="100%" height="100%" /></a>
-            </div>
-            
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>OBJECT TRANSLATION</h4>
-			<h5>SCHOOL</h5>
-            <h6>Elements of Graphic Design</h6>
-            <p class="purpletext">Designed a translation of a mechanic object. This project required heavy emphasis on the Gestalt principle and intergration of type.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
-        
-        <div class="portfoliocontainers">
-		<div class="one-fourth column">
+        			<div class="one-fourth column">
 		
-            <div id="gallery5">
-            	<a href="images/recyclemania.png" title="RecycleMania Banner"><img src="images/recyclemania.png" alt="RecycleMania Banner" width="100%" height="100%" /></a>
-            </div>
+            			<div id="gallery4">
+            				<a href="images/bass.png" title="Object Translation"><img src="images/bass.png" alt="Speaker Translation" width="100%" height="100%" /></a>
+            			</div>
             
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>RECYCLEMANIA BANNER</h4>
-			<h5>WORK</h5>
-            <h6>RIT Sustainability Department</h6>
-            <p class="purpletext">Designed a large banner for on-campus events during the Annual RecycleMania Tournment.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
+					</div>
+                    
+                    
+					<div class="one-fourth column">
+                    
+       				 	<div>
+							<h4>OBJECT TRANSLATION</h4>
+							<h5>SCHOOL</h5>
+            				<h6>Elements of Graphic Design</h6>
+            				<p class="purpletext">Designed a translation of a mechanic object. This project required heavy emphasis on the Gestalt principle and intergration of type.</p>
+        				</div>
+                        
+					</div>
+                    
+        		</div>
+                
+        	</div>
+        	<!--Image Section End-->
+            
+            
+            <div class="mix Work">
         
-        <div class="portfoliocontainers">
-		<div class="one-fourth column">
+        		<div class="portfoliocontainers">
 		
-            <div id="gallery6">
-            	<a href="images/graph1.png" title="Ocean Pollution Graph #1"><img src="images/graph1.png" alt="Ocean Pollution Graph" width="100%" height="100%" /></a>
-                <a href="images/graph2.png" title="Ocean Pollution Graph #2"></a>
-            </div>
+        			<div class="one-fourth column">
+		
+            			<div id="gallery5">
+            			<a href="images/recyclemania.png" title="RecycleMania Banner"><img src="images/recyclemania.png" alt="RecycleMania Banner" width="100%" height="100%" /></a>
+            			</div>
             
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>OCEAN POLLUTION GRAPH</h4>
-			<h5>SCHOOL</h5>
-            <h6>Information Design</h6>
-            <p class="purpletext">Designed two versions of an Ocean Pollution graph. This project required high readability and legibility with meaningful color choices, imagery, and positioning.</p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
+					</div>
+                    
+                    
+					<div class="one-fourth column">
         
-        <div class="portfoliocontainers">
-		<div class="one-fourth column">
-		
-            <div class="gallery7">
-            	<a href="images/zerowaste.png" title="Zero Waste Poster"><img src="images/zerowaste.png" alt="Zero Waste Poster" width="100%" height="100%" /></a>
-            </div>
+        				<div>
+							<h4>RECYCLEMANIA BANNER</h4>
+							<h5>WORK</h5>
+            				<h6>RIT Sustainability Department</h6>
+            				<p class="purpletext">Designed a large banner for on-campus events during the Annual RecycleMania Tournment.</p>
+        				</div>
+                        
+					</div>
+                    
+        		</div>
+                
+        	</div>
+        	<!--Image Section End-->
             
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>ZERO WASTE POSTER</h4>
-			<h5>WORK</h5>
-            <h6>RIT Sustainability Department</h6>
-            <p class="purpletext">Designed an informational poster for Rochester Institute of Technology's Zero Waste Events. This poster features original illustrations and a found background texture. </p>
-        </div>
-		</div>
-        </div>
-        <!--Image Section End-->
+            
+            <div class="mix School">
         
-        <div class="portfoliocontainers">
-		<div class="one-fourth column">
+        		<div class="portfoliocontainers">
 		
-            <div class="gallery8">
-            	<a href="images/forms.jpg" title="Chiropractic Form Redesign"><img src="images/forms.jpg" alt="Chiropractic Office Forms" width="100%" height="100%" /></a>
-            </div>
+        			<div class="one-fourth column">
+		
+            			<div id="gallery6">
+            				<a href="images/graph1.png" title="Ocean Pollution Graph #1"><img src="images/graph1.png" alt="Ocean Pollution Graph" width="100%" height="100%" /></a>
+                			<a href="images/graph2.png" title="Ocean Pollution Graph #2"></a>
+            			</div>
             
-		</div>
-		<div class="one-fourth column">
-        <div>
-			<h4>CHIROPRACTIC FORM REDESIGN</h4>
-			<h5>SCHOOL</h5>
-            <h6>Information Design</h6>
-            <p class="purpletext"><strong>RUNNER-UP<strong> in Form Redesign Project for a Rochester Chiropractic Office. This project emphasized group collaboration and working with a client. The form required a design with focus on functionality, ease of use, heirarchy, and clarity.</p>
+					</div>
+                    
+                    
+					<div class="one-fourth column">
+       		
+            			<div>
+						<h4>OCEAN POLLUTION GRAPH</h4>
+						<h5>SCHOOL</h5>
+            			<h6>Information Design</h6>
+            			<p class="purpletext">Designed two versions of an Ocean Pollution graph. This project required high readability and legibility with meaningful color choices, imagery, and positioning.</p>
+        				</div>
+                        
+					</div>
+                    
+        		</div>
+                
+        	</div>        
+        	<!--Image Section End-->
+            
+            
+            <div class="mix Work">
+        
+        		<div class="portfoliocontainers">
+                
+					<div class="one-fourth column">
+		
+            			<div class="gallery7">
+            				<a href="images/zerowaste.png" title="Zero Waste Poster"><img src="images/zerowaste.png" alt="Zero Waste Poster" width="100%" height="100%" /></a>
+            			</div>
+            
+					</div>
+                    
+                    
+					<div class="one-fourth column">
+        
+        				<div>
+							<h4>ZERO WASTE POSTER</h4>
+							<h5>WORK</h5>
+            				<h6>RIT Sustainability Department</h6>
+            				<p class="purpletext">Designed an informational poster for Rochester Institute of Technology's Zero Waste Events. This poster features original illustrations and a found background texture. </p>
+       					</div>
+                        
+					</div>
+                    
+        		</div>
+                
+        	</div>
+        	<!--Image Section End-->
+            
+            
+            
+        	<div class="mix School">
+            
+        		<div class="portfoliocontainers">
+		
+        			<div class="one-fourth column">
+		
+            			<div class="gallery8">
+            				<a href="images/forms.jpg" title="Chiropractic Form Redesign"><img src="images/forms.jpg" alt="Chiropractic Office Forms" width="100%" height="100%" /></a>
+            			</div>
+            
+					</div>
+                    
+                    
+					<div class="one-fourth column">
+                
+        				<div>
+							<h4>CHIROPRACTIC FORM REDESIGN</h4>
+							<h5>SCHOOL</h5>
+            				<h6>Information Design</h6>
+            				<p class="purpletext"><strong>RUNNER-UP</strong> in Form Redesign Project for a Rochester Chiropractic Office. This project emphasized group collaboration and working with a client. The form required a design with focus on functionality, ease of use, heirarchy, and clarity.</p>
+        				</div>
+                    
+					</div>
+                
+        		</div>
+            
+        	</div>    
+        	<!--Image Section End-->
+        
+        
         </div>
-		</div>
-        </div>
-        <!--Image Section End-->
         
         
      <div>       
