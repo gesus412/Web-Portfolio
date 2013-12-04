@@ -24,16 +24,169 @@
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		
+		footer {
+		background: rgb(102,51,102);
+		clear: both;
+		width: 100%;
+ 	}
+ 
+  		.copyright {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+		.footernav {
+		margin-left: 230px;
+		margin-right: 270px;
+	}
+	
+		.siteauthor {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	
+		.phonebutton {
+			display: none;
+	}
+ 
+		.mobilenav {
+			display: none;
+	}
+	
+		.emailbutton {
+			display: none;
+	}
+	
+ }
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		footer {
+		background: rgb(102,51,102);
+		clear: both;
+		width: 100%;
+ 	}
+ 
+	 .copyright {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+	.footernav {
+		margin-left: 130px;
+		margin-right: 160px;
+	}
+	
+	.siteauthor {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	
+		.phonebutton {
+			display: none;
+	}
+ 
+		.mobilenav {
+			display: none;
+	}
+	
+		.emailbutton {
+			display: none;
+	}
+	
+	
+	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		
+		footer {
+		background: rgb(102,51,102);
+		clear: both;
+		width: 100%;
+	 }
+	 
+		.copyright {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+		.footernav {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+		.siteauthor {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+		
+			.phonebutton {
+			display: none;
+	}
+ 
+		.mobilenav {
+			display: none;
+	}
+	
+		.emailbutton {
+			display: none;
+	}
+	
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		footer {
+		background: rgb(102,51,102);
+		clear: both;
+		width: 100%;
+ 	}
+	
+	 	#aboutimg {
+		margin-top: -50px;
+		margin-bottom: 50px;
+ }
+ 
+		.copyright {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+		.footernav {
+		margin-left: 0px;
+		margin-right: 0px;
+		display: none;
+	}
+	
+		.siteauthor {
+		margin-left: 180px;
+		margin-right: 10px;
+	}
+	
+		.phonebutton {
+			display: none;	
+	}
+ 
+		.mobilenav {
+			display: none;
+	}
+	
+		.emailbutton {
+			display: none;
+	}
+	
+		.contact {
+			margin-top: 50px;
+			margin-bottom: 0;
+		}
+	
+		
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
@@ -86,6 +239,9 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
  }
  
  	footer ul {
@@ -97,6 +253,45 @@
 		margin-left: auto;
 		margin-right: auto;
  }
+ 
+  	.copyright {
+		margin-left: 10px;
+		margin-right: 0;
+		display: none;
+	}
+	
+	.footernav {
+		margin-left: 230px;
+		margin-right: 270px;
+		display: none;
+	}
+	
+	.siteauthor {
+		margin-left: 0;
+		margin-right: 10px;
+		display: none;
+	}	
+	
+		.phonebutton {
+			display: inline;	
+	}
+ 
+		.mobilenav {
+			display: inline;	
+	}
+	
+		.emailbutton {
+			display: inline;	
+	}
+	
+		form {
+			display: none;
+		}
+		
+		.contact {
+			margin-top: 50px;
+			margin-bottom: 200px;
+		}
 		
 		
 		}

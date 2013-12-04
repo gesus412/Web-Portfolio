@@ -109,6 +109,21 @@
 		margin-left: auto;
 		margin-right: auto;
  }
+ 
+ 	.copyright {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+	.footernav {
+		margin-left: 230px;
+		margin-right: 270px;
+	}
+	
+	.siteauthor {
+		margin-left: 0;
+		margin-right: 10px;
+	}
 
 /* #Typography
 ================================================== */
