@@ -97,7 +97,8 @@
 	footer {
 		background: rgb(102,51,102);
 		clear: both;
-		width: 960px;
+		width: 940px;
+		margin: auto;
  }
  
  	footer ul {
@@ -124,6 +125,24 @@
 		margin-left: 0;
 		margin-right: 10px;
 	}
+	
+	.group2 {
+		clear: both;
+		
+	}
+	
+	.group3 {
+		clear: both;
+	}
+	
+	.group4 {
+		clear: both;
+	}
+	
+	.sixteen.columns .sixteen.columns, .sixteen.columns .eight.columns{
+		margin:0;
+	}
+	
 
 /* #Typography
 ================================================== */

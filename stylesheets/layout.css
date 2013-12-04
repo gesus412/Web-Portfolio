@@ -30,6 +30,8 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
  	}
  
   		.copyright {
@@ -59,6 +61,22 @@
 			display: none;
 	}
 	
+	.group2 {
+		clear: both;
+		padding-top: 50px;
+		
+	}
+	
+	.group3 {
+		clear: both;
+		padding-top: 50px;
+	}
+	
+	.group4 {
+		clear: both;
+		padding-top: 50px;
+	}
+	
  }
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -68,6 +86,8 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
  	}
  
 	 .copyright {
@@ -97,6 +117,10 @@
 			display: none;
 	}
 	
+	.mix {
+		clear: both;
+	}
+	
 	
 	}
 
@@ -107,6 +131,8 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	 }
 	 
 		.copyright {
@@ -145,6 +171,8 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
  	}
 	
 	 	#aboutimg {
@@ -239,6 +267,8 @@
 		background: rgb(102,51,102);
 		clear: both;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		position: fixed;
 		bottom: 0px;
 		left: 0px;
