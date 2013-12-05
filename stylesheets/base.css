@@ -139,8 +139,12 @@
 		clear: both;
 	}
 	
-	.sixteen.columns .sixteen.columns, .sixteen.columns .eight.columns{
+	.sixteen.columns .sixteen.columns, .sixteen.columns .eight.columns {
 		margin:0;
+	}
+	
+	.one-fourth.column {
+		padding-top: 50px;
 	}
 	
 
@@ -195,7 +199,7 @@
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ol ol, ol ul { font-size: 90%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	
