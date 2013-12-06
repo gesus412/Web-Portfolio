@@ -61,6 +61,10 @@
 			display: none;
 	}
 	
+	.group1 {
+		height: 395px;
+	}
+	
 	.group2 {
 		height: 395px;
 		padding-top: 50px;
@@ -75,6 +79,10 @@
 	.group4 {
 		height: 395px;
 		padding-top: 50px;
+	}
+	
+	.mobilelogo {
+		display: none;
 	}
 	
  }
@@ -294,19 +302,19 @@
 	
 		.phonebutton {	
 		display: inline-block;
-		width: 32.5%;
+		width: 32%;
 		text-align: center;
 	}
  
 		.mobilenav {	
 		display: inline-block;		
-		width: 32.5%;
+		width: 32%;
 		text-align: center;
 	}
 	
 		.emailbutton {		
 		display: inline-block;	
-		width: 32.5%;
+		width: 32%;
 		text-align: center;
 	}
 	
@@ -316,6 +324,18 @@
 		
 		.contact {
 			margin-bottom: 200px;
+		}
+		
+		.filter {
+			display: none;
+		}
+		
+		.mobilelogo {
+			display: inline;
+		}
+		
+		.desktoplogo{
+			display: none;
 		}
 		
 		
