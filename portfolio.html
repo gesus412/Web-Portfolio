@@ -41,6 +41,28 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+	$(document).ready(function(){
+		$(".filter-all").click(function(){
+			$(".mix").fadeIn("fast");
+		});
+		$(".filter-work").click(function(){
+			$(".Work").fadeIn("fast");
+			$(".School").fadeOut("fast");
+			$(".Personal").fadeOut("fast");
+		});
+		$(".filter-school").click(function(){
+			$(".School").fadeIn("fast");
+			$(".Work").fadeOut("fast");
+			$(".Personal").fadeOut("fast");
+		});
+		$(".filter-personal").click(function(){
+			$(".Personal").fadeIn("fast");
+			$(".School").fadeOut("fast");
+			$(".Work").fadeOut("fast");
+		});
+	});
+	</script>
 
 </head>
 
@@ -73,10 +95,10 @@
         
         <div class="filter">
         	<ul>
-            	<li class="filter" data-filter="All">All</li>
-            	<li class="filter" data-filter="Work">Work</li>
-                <li class="filter" data-filter="School">School</li>
-                <li class="filter" data-filter="Personal">Personal</li>
+            	<li class="filter-all">All</li>
+            	<li class="filter-work">Work</li>
+                <li class="filter-school">School</li>
+                <li class="filter-personal">Personal</li>
             </ul>
         </div>
         <!-- filtering nav -->
@@ -351,13 +373,13 @@
             	<ul>
                 
                 	<li>
-        				<div>
+        				<div class="copyright">
         					<p>Copyright 2013</p>
             			</div>
                     </li>
                     
                     <li>
-           				<div>
+           				<div class="footernav">
         					<ul>
                 				<li><a href="index.html">HOME •</a></li>
                    				<li><a href="about.html">ABOUT •</a></li>
@@ -367,7 +389,7 @@
                      </li>
                      
                      <li>
-            			<div>
+            			<div class="siteauthor">
             				<p>Giovanni Leone</p>
             			</div>
                     </li>

@@ -62,18 +62,18 @@
 	}
 	
 	.group2 {
-		clear: both;
+		height: 395px;
 		padding-top: 50px;
 		
 	}
 	
 	.group3 {
-		clear: both;
+		height: 395px;
 		padding-top: 50px;
 	}
 	
 	.group4 {
-		clear: both;
+		height: 395px;
 		padding-top: 50px;
 	}
 	
@@ -96,7 +96,7 @@
 	}
 	
 	.footernav {
-		margin-left: 130px;
+		margin-left: 160px;
 		margin-right: 160px;
 	}
 	
@@ -115,10 +115,6 @@
 	
 		.emailbutton {
 			display: none;
-	}
-	
-	.mix {
-		clear: both;
 	}
 	
 	
@@ -150,7 +146,7 @@
 		margin-right: 10px;
 	}
 		
-			.phonebutton {
+		.phonebutton {
 			display: none;
 	}
  
@@ -192,7 +188,7 @@
 	}
 	
 		.siteauthor {
-		margin-left: 180px;
+		margin-left: 185px;
 		margin-right: 10px;
 	}
 	
@@ -207,12 +203,6 @@
 		.emailbutton {
 			display: none;
 	}
-	
-		.contact {
-			margin-top: 50px;
-			margin-bottom: 0;
-		}
-	
 		
 	}
 
@@ -302,16 +292,22 @@
 		display: none;
 	}	
 	
-		.phonebutton {
-			display: inline;	
+		.phonebutton {	
+		display: inline-block;
+		width: 32.5%;
+		text-align: center;
 	}
  
-		.mobilenav {
-			display: inline;	
+		.mobilenav {	
+		display: inline-block;		
+		width: 32.5%;
+		text-align: center;
 	}
 	
-		.emailbutton {
-			display: inline;	
+		.emailbutton {		
+		display: inline-block;	
+		width: 32.5%;
+		text-align: center;
 	}
 	
 		form {
@@ -319,7 +315,6 @@
 		}
 		
 		.contact {
-			margin-top: 50px;
 			margin-bottom: 200px;
 		}
 		

@@ -97,7 +97,7 @@
 	footer {
 		background: rgb(102,51,102);
 		clear: both;
-		width: 940px;
+		width: 100%;
 		margin: auto;
  }
  
@@ -111,6 +111,10 @@
 		margin-right: auto;
  }
  
+ 	.homeimg { 
+	margin-left: -10px;
+	}
+ 
  	.copyright {
 		margin-left: 10px;
 		margin-right: 0;
@@ -118,7 +122,7 @@
 	
 	.footernav {
 		margin-left: 230px;
-		margin-right: 270px;
+		margin-right: 300px;
 	}
 	
 	.siteauthor {
@@ -127,16 +131,16 @@
 	}
 	
 	.group2 {
-		clear: both;
+		height: 395px;
 		
 	}
 	
 	.group3 {
-		clear: both;
+		height: 395px;
 	}
 	
 	.group4 {
-		clear: both;
+		height: 395px;
 	}
 	
 	.sixteen.columns .sixteen.columns, .sixteen.columns .eight.columns {
@@ -145,6 +149,28 @@
 	
 	.one-fourth.column {
 		padding-top: 50px;
+	}
+	
+		.phonebutton {
+			display: none;
+			border-right: black thin solid;
+	}
+ 
+		.mobilenav {
+			display: none;
+	}
+	
+		.emailbutton {
+			display: none;
+	}
+	
+		.outercontact {
+			clear: both;
+			padding-top: 50px;
+	}
+	
+	.filter-all, .filter-work, .filter-school, .filter-personal{
+		cursor:pointer;
 	}
 	
 
