@@ -162,6 +162,7 @@
  
 		.mobilenav {
 			display: none;
+			border-right: black thin solid;
 	}
 	
 		.emailbutton {
