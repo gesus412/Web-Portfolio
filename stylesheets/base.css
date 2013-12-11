@@ -155,18 +155,17 @@
 		padding-top: 50px;
 	}
 	
-		.phonebutton {
+		.mininav {
+			width: 32%;
 			display: none;
-			border-right: black thin solid;
-	}
- 
-		.mobilenav {
-			display: none;
-			border-right: black thin solid;
 	}
 	
-		.emailbutton {
-			display: none;
+		.mobilelinks {
+			padding-bottom:10px;
+	}
+	
+		.home {
+			margin-left: -10px;
 	}
 	
 		.outercontact {
@@ -242,6 +241,7 @@
 	.mobilelogo {
 		display: none;
 	}
+	
 		
 		
 	
